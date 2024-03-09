@@ -1,4 +1,4 @@
-import "./styles/global.css";
+import "./assets/styles/global.scss";
 import HomeScreen from "./screens/home/home-screen";
 
 function App() {
