@@ -1,4 +1,5 @@
 import AboutMeSection from "../../components/home/aboutMe/aboutMe-section";
+import ExperienciesSection from "../../components/home/experiences/experiencies-section";
 import Navbar from "../../components/home/navbar/navbar";
 
 function HomeScreen() {
@@ -7,6 +8,7 @@ function HomeScreen() {
       <div className="line" />
       <Navbar />
       <AboutMeSection />
+      <ExperienciesSection />
     </div>
   );
 }

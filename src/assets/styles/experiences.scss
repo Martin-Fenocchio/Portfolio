@@ -1,0 +1,53 @@
+@import "./variables.scss";
+
+.experience-item {
+  display: grid;
+  grid-template-columns: 8% auto;
+  gap: 5px;
+  padding-left: 3rem;
+
+  .left {
+    .calendar {
+      border: 1px solid white;
+      border-radius: 100%;
+      padding: 0.5rem;
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .yellow-line {
+      background-color: $yellow;
+      height: 100%;
+      width: 2px;
+    }
+  }
+
+  h3 {
+    font-weight: 600;
+    margin-bottom: 0.3vh;
+    font-size: 1.5rem;
+
+    .company {
+      font-size: 1.2rem;
+    }
+  }
+
+  h6 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 1.5vh;
+  }
+
+  p {
+    color: rgb(222, 222, 222);
+    font-size: 1.2rem;
+
+    strong {
+      color: white;
+    }
+  }
+}

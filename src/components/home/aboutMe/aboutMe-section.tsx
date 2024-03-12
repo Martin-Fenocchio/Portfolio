@@ -48,9 +48,12 @@ function AboutMeSection() {
             />
           </div>
 
-          <p className="experience flex items-center animate-bounce hover">
+          <a
+            href="#experience-section"
+            className="experience flex items-center animate-bounce hover"
+          >
             Experiencia <img src={Arrow} alt="icon" className="w-10" />
-          </p>
+          </a>
         </div>
       </div>
     </div>

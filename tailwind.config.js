@@ -9,7 +9,13 @@ export default {
       colors: {
         darkBlue: "#000428",
         mediumBlue: "#122441",
+        background: "#030228",
+        darkGreen: "#00a872",
+        yellow: "#FFC01E",
         green: "#0FFF9A",
+      },
+      spacing: {
+        content: "650px",
       },
     },
   },
