@@ -11,7 +11,7 @@ function ExperienciesSection() {
         title="Programador Flutter y React JS"
         company="LimboTeams"
         date="Julio 2021 - Presente"
-        url="www.limboteams.com"
+        url="https://limboteams.com"
         description={
           <p>
             <strong>Líder de desarrollo</strong> de un equipo de programadores
