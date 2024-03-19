@@ -11,8 +11,8 @@ function HomeScreen() {
       <Navbar />
       <AboutMeSection />
       <ExperienciesSection />
-      <BlogsSection />
       <LibrariesSection />
+      <BlogsSection />
     </div>
   );
 }

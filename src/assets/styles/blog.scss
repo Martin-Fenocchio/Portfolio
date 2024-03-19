@@ -33,9 +33,11 @@
 
     .picture {
       margin-right: 1.5rem;
+      height: 100%;
 
       img {
-        object-fit: contain;
+        border-radius: 10px;
+        object-fit: cover;
         height: 100%;
         width: 100%;
       }
