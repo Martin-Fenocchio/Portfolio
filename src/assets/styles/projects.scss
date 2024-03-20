@@ -1,0 +1,59 @@
+@import "./variables.scss";
+
+.project-section {
+  padding-left: 3rem;
+  color: white;
+
+  h2 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+
+  .project-item {
+    border-radius: 15px;
+    background-color: $blue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem 1rem;
+
+    > img {
+      border-radius: 8px;
+    }
+
+    h3 {
+      color: $green;
+      font-weight: 600;
+      margin: 1.5vh 0;
+      font-size: 1.5rem;
+    }
+
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1.5rem;
+
+      .tag-item {
+        background-color: #313765;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        padding: 0.3rem 0.5rem;
+        font-size: 0.8rem;
+        > img {
+          margin-left: 0.5rem;
+          width: 0.8rem;
+        }
+      }
+    }
+  }
+}

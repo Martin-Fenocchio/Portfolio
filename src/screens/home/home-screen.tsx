@@ -3,6 +3,7 @@ import BlogsSection from "../../components/home/blogs/blogs-section";
 import ExperienciesSection from "../../components/home/experiences/experiencies-section";
 import LibrariesSection from "../../components/home/libraries/libraries-section";
 import Navbar from "../../components/home/navbar/navbar";
+import ProjectsSection from "../../components/home/projects/projects-section";
 
 function HomeScreen() {
   return (
@@ -10,6 +11,7 @@ function HomeScreen() {
       <div className="line" />
       <Navbar />
       <AboutMeSection />
+      <ProjectsSection />
       <ExperienciesSection />
       <LibrariesSection />
       <BlogsSection />
