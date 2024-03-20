@@ -5,7 +5,10 @@ import FlutterIcon from "../../../assets/icons/flutter.svg";
 
 function ProjectsSection() {
   return (
-    <section className="bg-background project-section pt-[9vh] max-w-content m-auto">
+    <section
+      id="projects-section"
+      className="bg-background project-section pt-[9vh] max-w-content m-auto"
+    >
       <h2>Projects</h2>
 
       <div className="grid">

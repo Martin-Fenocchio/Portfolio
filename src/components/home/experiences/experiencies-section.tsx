@@ -5,8 +5,10 @@ function ExperienciesSection() {
   return (
     <section
       id="experience-section"
-      className="h-full bg-background experience-section pt-[9vh]"
+      className=" experience-section pt-[9vh] max-w-content m-auto"
     >
+      <h2>Experience</h2>
+
       <ExperienceItem
         title="Programador Flutter y React JS"
         company="LimboTeams"

@@ -8,7 +8,7 @@ function BlogsSection() {
   return (
     <section
       id="blogs-section"
-      className="h-full bg-background blog-section pt-[9vh] max-w-content m-auto"
+      className=" bg-background blog-section pt-[9vh] max-w-content m-auto"
     >
       <h2>Blogs</h2>
       <p>

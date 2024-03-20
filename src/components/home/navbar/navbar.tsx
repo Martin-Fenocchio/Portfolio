@@ -9,10 +9,10 @@ function Navbar() {
       <h2 className="M">M</h2>
 
       <div className="flex">
-        <NavbarItems text="Experience" />
-        <NavbarItems text="Projects" />
-        <NavbarItems text="Blogs" />
-        <NavbarItems text="Libraries" />
+        <NavbarItems text="Projects" sectionID="#projects-section" />
+        <NavbarItems text="Experience" sectionID="#experience-section" />
+        <NavbarItems text="Blogs" sectionID="#blogs-section" />
+        <NavbarItems text="Libraries" sectionID="#libraries-section" />
       </div>
 
       <h2 className="M hide">M</h2>
