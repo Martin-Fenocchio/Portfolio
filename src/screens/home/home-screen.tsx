@@ -9,10 +9,11 @@ function HomeScreen() {
   return (
     <div className="f-width h-full">
       <div className="line" />
-      <Navbar />
+      {/*   <Navbar />
+       */}
       <AboutMeSection />
-      <ProjectsSection />
       <ExperienciesSection />
+      <ProjectsSection />
       <LibrariesSection />
       <BlogsSection />
     </div>

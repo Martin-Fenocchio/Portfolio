@@ -45,3 +45,21 @@
     }
   }
 }
+
+@media (max-width: 431px) {
+  .blog-section {
+    padding: 3rem 2rem 4rem;
+
+    .blog-item {
+      grid-template-columns: 100%;
+
+      .picture {
+        margin-right: 0;
+      }
+
+      .right {
+        margin-top: 1.5rem;
+      }
+    }
+  }
+}

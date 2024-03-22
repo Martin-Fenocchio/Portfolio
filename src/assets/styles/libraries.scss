@@ -59,3 +59,13 @@
     }
   }
 }
+
+@media (max-width: 431px) {
+  .libraries-section {
+    padding: 3rem 2rem 0;
+
+    .library-item {
+      grid-template-columns: 100%;
+    }
+  }
+}

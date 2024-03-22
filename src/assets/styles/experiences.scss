@@ -61,3 +61,19 @@
     }
   }
 }
+
+@media (max-width: 431px) {
+  .experience-section {
+    margin-top: 3rem;
+    padding-left: 0;
+    padding: 0 2rem;
+
+    h2 {
+      margin-bottom: 2rem;
+    }
+
+    .experience-item {
+      gap: 16px;
+    }
+  }
+}

@@ -3,14 +3,15 @@ import Github from "../../../assets/icons/github.svg";
 import Linkedin from "../../../assets/icons/linkedin.svg";
 import Email from "../../../assets/icons/email.svg";
 import SocialMediaItem from "./social-media/social-media-item";
+import "../../../assets/styles/about-me.scss";
 
 function AboutMeSection() {
   return (
-    <div className="h-full gradient">
+    <div className="about-me-section  h-full gradient">
       <div className="h-[90%] about_me_section flex flex-column items-center  ">
         <div className="width-container">
           <h1 className="text-white">
-            Hola, <span>soy Martín</span>
+            Hola, <span>soy Martín.</span>
           </h1>
           <h2 className="text-white">Flutter & React dev</h2>
           <p className="text-white">
@@ -30,7 +31,7 @@ function AboutMeSection() {
             y <span className="yellow">apasionado</span> de la tecnología.
           </p>
 
-          <div className="flex gap-3 mt-7">
+          <div className="grid-media flex gap-3 mt-7">
             <SocialMediaItem
               text="GitHub"
               icon={Github}
