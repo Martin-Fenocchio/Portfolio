@@ -56,6 +56,12 @@
       }
     }
   }
+
+  > button:hover {
+    background-color: $yellow;
+    color: black;
+    transform: scale(1.05);
+  }
 }
 
 @media (max-width: 431px) {
